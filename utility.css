@@ -1,0 +1,61 @@
+.border{
+    border: 2px solid black;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white; 
+}
+.invert{
+    filter:invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 5px;
+}
+.m-1{
+    margin: 5px; 
+}
+.p-1{
+    padding: 10px;
+}
+.roundedimg{
+    border-radius: 190px;
+}
+
+    /* Styles for the entire scrollbar */
+/* These styles only work in WebKit-based browsers like Chrome, Safari, etc. */
+/* For Firefox and Edge, you might need different vendor prefixes */
+
+/* Track */
+::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+    background-color: #333; /* background color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #666; /* color of the scrollbar handle */
+    border-radius: 5px; /* roundness of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888; 
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+    background-color: #333; /* color of the corner where two scrollbars meet */
+}
